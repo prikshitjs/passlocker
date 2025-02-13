@@ -21,6 +21,7 @@ formdata.addEventListener("submit", (e) => {
     pass_word: password,
   });
   localStorage.setItem("passwords", JSON.stringify(passdata));
+  display_passwords();
   formdata.reset();
 });
 
