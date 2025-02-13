@@ -6,10 +6,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-body
-{
-    height: 200vh;
-}
 .logo
 {
     height: 40px;
@@ -118,7 +114,7 @@ body::before
 }
 .detailsbox span
 {
-    display: none;
+    display: block;
 }
 main
 {
